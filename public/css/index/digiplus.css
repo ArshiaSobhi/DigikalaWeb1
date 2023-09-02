@@ -1,0 +1,117 @@
+/* digiplus start */
+div.digiplus {
+  width: 78%;
+  height: 387px;
+  border-radius: 16px;
+  background-color: rgb(148, 27, 128);
+  margin: 24px auto 12px auto;
+  padding: 16px;
+}
+div.digiplus > div.left {
+  width: 70%;
+  height: 100%;
+  border-radius: 16px;
+  float: left;
+  background-color: white;
+  padding: 0 16px;
+}
+div.digiplus > div.left > div {
+  width: 100%;
+  height: fit-content;
+  padding: 16px 0;
+  display: inline-block;
+}
+div.digiplus > div.left > div > img {
+  float: right;
+}
+div.digiplus > div.left > div > p {
+  float: right;
+  font-family: yekan;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(8, 10, 56);
+  width: fit-content;
+  margin-right: 8px;
+}
+div.digiplus > div.left > div > a {
+  width: fit-content;
+  height: fit-content;
+  float: left;
+  text-decoration: none;
+}
+div.digiplus > div.left > div > a > p {
+  float: left;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: yekan;
+  color: rgb(148, 27, 128);
+  margin-right: 0;
+  line-height: 23px;
+}
+div.digiplus > div.left > div > a > p > i {
+  float: left;
+  line-height: 23px;
+  padding-right: 6px;
+}
+div.digiplus > div.left > div.images {
+  width: 100%;
+  height: 270px;
+  padding: 0;
+}
+div.digiplus > div.left > div.images > div {
+  width: calc(100% / 6);
+  height: 50%;
+  float: right;
+}
+div.digiplus > div.left > div.images > div > a {
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+}
+div.digiplus > div.left > div.images > div > a > img {
+  width: 116px;
+  height: 116px;
+}
+div.digiplus > div.right {
+  width: 30%;
+  height: 100%;
+  float: right;
+  background-color: transparent;
+  position: relative;
+}
+div.digiplus > div.right > div {
+  width: fit-content;
+  height: fit-content;
+  padding: 24px 32px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div.digiplus > div.right > div > p {
+  font-size: 14px;
+  font-family: yekan;
+  font-weight: bold;
+  color: white;
+  padding-top: 12px;
+}
+div.digiplus > div.right > div > button {
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  font-family: yekan;
+  font-size: 14px;
+  cursor: pointer;
+}
+div.digiplus > div.right > div > button > i {
+  float: left;
+  line-height: 20px;
+  padding-right: 10px;
+}
+div.digiplus > div.right > img {
+  width: 100%;
+  margin-top: calc(100% - 286.742px);
+}
+/* digiplus end */

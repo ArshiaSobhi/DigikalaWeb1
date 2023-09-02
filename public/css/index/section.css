@@ -1,0 +1,46 @@
+/* section start */
+div.section {
+  width: 77%;
+  height: 96px;
+  margin: 24px auto;
+}
+div.section > div {
+  width: 12.5%;
+  height: 100%;
+  display: inline-block;
+  margin-left: -4px;
+  padding: 8px 12px;
+  text-align: center;
+  vertical-align: top;
+}
+div.section > div > a {
+  font-family: yekan;
+  font-size: 12px;
+  text-decoration: none;
+  color: #3f4064;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+}
+div.section > div > a > img {
+  width: 52px;
+  height: 52px;
+}
+div.section > div > a > p {
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 4px;
+}
+div.section div.more {
+  width: 52px;
+  height: 52px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #e8e9eb;
+}
+div.section div.more > i {
+  font-size: 24px;
+  line-height: 52px;
+  color: #8c8c91;
+}
+/* section end */

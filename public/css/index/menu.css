@@ -1,0 +1,256 @@
+/* whole menu start */
+div.head > div.head-3 {
+  width: 100%;
+  height: 40px;
+  padding: 0 16px;
+}
+div.head > div.head-3 > nav {
+  width: 88%;
+  height: 40px;
+  display: inline-block;
+  margin-left: -4px;
+}
+div.head > div.head-3 > nav > div.menu {
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  margin-left: -4px;
+}
+/* whole menu end */
+
+/* dastebandie kalaha start */
+div.head > div.head-3 > nav > div.menu > div.bg-submenu {
+  all: unset;
+  width: 100%;
+  height: calc(100vh - 168px);
+  position: absolute;
+  top: 168px;
+  left: 0;
+  background-color: rgba(27, 17, 78, 0.304);
+  z-index: 2;
+  display: none;
+}
+div.head > div.head-3 > nav > div.menu > div.org {
+  width: auto;
+  height: 100%;
+  float: right;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.border-left {
+  border-left: 1px solid rgb(224, 224, 230);
+}
+div.head > div.head-3 > nav > div.menu > div.org > i {
+  float: right;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #3f4064;
+  cursor: pointer;
+}
+div.head > div.head-3 > nav > div.menu > div.org > p {
+  float: right;
+  padding-right: 8px;
+  padding-left: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: yekan;
+  color: #3f4064;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu {
+  width: 97%;
+  height: calc(81.5vh - 168px);
+  position: absolute;
+  left: 1%;
+  top: 168px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0px 0.5px 1px rgb(90, 92, 122);
+  z-index: 3;
+  display: none;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all {
+  width: 12%;
+  height: 100%;
+  background-color: white;
+  border-radius: 0 0 8px 0;
+  overflow: auto;
+  border-left: 1px solid rgb(238, 238, 240);
+  direction: ltr;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(238, 238, 240);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(192, 192, 203);
+  border-radius: 3px;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div {
+  width: 100%;
+  height: calc(594px / 12);
+  padding: 12px 8px;
+  cursor: pointer;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > p {
+  font-family: yekan;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: calc(594px / 12 - 24px);
+  color: #3f4064;
+  float: right;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > p > i {
+  font-size: 14px;
+  color: black;
+  padding-left: 10px;
+  line-height: calc(594px / 12 - 24px);
+  float: right;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div {
+  width: 88%;
+  height: 100%;
+  padding: 0 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white;
+  border-radius: 0 0 0 8px;
+  overflow: auto;
+  text-align: right;
+  cursor: default;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div:nth-of-type(1) > div {
+  z-index: 3;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.all-of {
+  width: 100%;
+  height: 65px;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.all-of > p {
+  width: unset;
+  margin: unset;
+  float: right;
+  font-family: yekan;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 65px;
+  cursor: pointer;
+  color: #3f4064;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.all-of > p > i {
+  float: left;
+  line-height: 65px;
+  color: #3f4064;
+  font-size: 12px;
+  padding-right: 8px;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r {
+  direction: rtl;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div.list-1 {
+  width: 20%;
+  height: 494px;
+  display: inline-block;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div.list-2 {
+  width: 15%;
+  height: 494px;
+  display: inline-block;
+  margin-left: -4px;
+}
+.width-edit-d {
+  width: 13% !important;
+}
+.width-edit-u {
+  width: 17% !important;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p {
+  width: calc(100% - 8px);
+  height: auto;
+  margin: 6px 0 6px 8px;
+  float: right;
+  font-family: yekan;
+  font-size: 12px;
+  color: rgb(105, 107, 139);
+  cursor: pointer;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p.tittle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #31324a;
+  border-right: 2px solid #e6123d;
+  padding-right: 10px;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p.tittle > i {
+  line-height: 23.5px;
+  color: #3f4064;
+  font-size: 12px;
+  padding-right: 4px;
+}
+div.head > div.head-3 > nav > div.menu > div.org:hover > div.submenu {
+  display: block;
+}
+div.head > div.head-3 > nav > div.menu > div.org:hover ~ div.bg-submenu {
+  display: block;
+}
+div.head > div.head-3 > nav > div.menu > div.bg-submenu:hover {
+  border-bottom: unset !important;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div:hover {
+  background-color: rgb(247, 247, 248);
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div:hover > P {
+  color: #e6123d;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div:hover > p > i {
+  color: #e6123d;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div:hover > div {
+  z-index: 4;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p:hover {
+  color: #e6123d;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p.tittle:hover > i {
+  color: #e6123d;
+}
+div.head > div.head-3 > nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div.all-of > p:hover {
+  color: #3f4064;
+}
+
+/* dastebandie kalaha end */
+
+/* rest of the menu strat */
+div.head > div.head-3 > nav > div.menu > div {
+  width: auto;
+  height: 100%;
+  float: right;
+  padding: 11.5px 12px;
+  transition: 100ms;
+}
+div.head > div.head-3 > nav > div.menu > div > a {
+  float: right;
+  text-decoration: none;
+  color: rgb(90, 92, 122);
+  font-size: 12px;
+  font-family: yekan;
+}
+div.head > div.head-3 > nav > div.menu > div > a > i {
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 6px;
+  float: right;
+}
+div.head > div.head-3 > nav > div.menu > div:nth-of-type(7) {
+  padding-left: 0;
+}
+div.head > div.head-3 > nav > div.menu > div:nth-of-type(7) > a > p {
+  float: right;
+  padding-left: 12px;
+}
+div.head > div.head-3 > nav > div.menu > div:hover {
+  border-bottom: 2px solid #e6123d;
+}
+/* rest of the menu end */

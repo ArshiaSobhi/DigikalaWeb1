@@ -1,0 +1,80 @@
+/* suggestions start */
+div.suggestions {
+  width: 78%;
+  margin: 0 auto;
+  text-align: center;
+}
+div.suggestions > h3 {
+  font-size: 21px;
+  font-family: yekan;
+  font-weight: normal;
+  padding: 16px 0;
+  margin-bottom: 14px;
+  color: rgb(8, 10, 56);
+}
+/* grid start */
+div.suggestions > div.grid {
+  width: 100%;
+  height: 310px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+div.suggestions > div.grid .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.suggestions > div.grid .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc(100% / 2) !important;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.suggestions > div.grid div.swiper {
+  border-radius: 16px !important;
+  border: 1px solid rgb(239, 236, 236);
+}
+div.suggestions > div.grid div.swiper-slide:nth-of-type(odd) {
+  border-left: 1px solid rgb(239, 236, 236);
+  border-bottom: 1px solid rgb(239, 236, 236);
+}
+div.suggestions > div.grid div.swiper-slide:nth-of-type(even) {
+  border-left: 1px solid rgb(239, 236, 236);
+}
+.border-fix {
+  border-left: unset !important;
+}
+div.suggestions > div.grid div.swiper-slide > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+div.suggestions > div.grid div.swiper-slide > a > div {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background-color: #f5f6f7;
+  text-align: center;
+  margin: 16px auto;
+}
+div.suggestions > div.grid div.swiper-slide > a > div > img {
+  width: 60px;
+  height: 60px;
+  display: inline-block !important;
+  margin-top: 12px;
+}
+div.suggestions > div.grid div.swiper-slide > a > p {
+  font-family: yekan;
+  font-size: 14px;
+  color: rgb(8, 10, 56);
+}
+/* grid end */
+/* suggestions end */

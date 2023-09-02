@@ -1,0 +1,222 @@
+/* grid start */
+div.grid-a {
+  width: calc(100% - 32px);
+  margin: 32px 16px;
+  display: inline-block;
+}
+div.grid-a > p {
+  font-size: 16px;
+  font-family: yekan;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+div.grid-a > div.filter {
+  width: 270px;
+  float: right;
+  border-radius: 10px;
+  border: 1px solid rgb(224, 224, 230);
+  padding: 0 20px;
+  position: sticky;
+  top: 200px;
+}
+div.grid-a > div.filter > p {
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 0;
+  color: rgb(63, 64, 100);
+  margin-bottom: 12px;
+}
+div.grid-a > div.filter > p > span {
+  font-size: 12px;
+  float: left;
+  color: rgb(25, 191, 211);
+  cursor: pointer;
+  font-weight: normal;
+  line-height: 25px;
+}
+div.grid-a > div.filter > div {
+  width: 100%;
+  border-bottom: 1px solid rgb(224, 224, 230);
+  padding: 0 12px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+div.grid-a > div.filter > div:nth-of-type(8) {
+  border-bottom: unset;
+}
+div.grid-a > div.filter > div > p {
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 0;
+  color: rgb(63, 64, 100);
+  float: right;
+}
+div.grid-a > div.filter > div > img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 8px;
+  position: absolute;
+  top: calc(50% - 10px);
+}
+div.grid-a > div.filter > div > i {
+  font-size: 14px;
+  color: #9e9fb1;
+  position: absolute;
+  top: calc(50% - 14.5px / 2);
+  left: 0;
+}
+.size-fix {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  top: calc(50% - 26.5px / 2) !important;
+}
+div.grid-a > div.rest {
+  float: left;
+  width: calc(100% - (270px + 16px));
+  margin-right: 16px;
+}
+div.grid-a > div.rest > div.menu {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1px solid rgb(224, 224, 230);
+  padding: 14px 0;
+}
+div.grid-a > div.rest > div.menu > a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: yekan;
+  color: #767790;
+  float: right;
+  margin: 0 10px;
+}
+div.grid-a > div.rest > div.menu > a:nth-of-type(1) {
+  color: rgb(63, 64, 100);
+  margin-right: 0;
+}
+div.grid-a > div.rest > div.menu > a:nth-of-type(1) > img {
+  float: right;
+  width: 17px;
+  height: 17px;
+  margin-left: 6px;
+}
+div.grid-a > div.rest > div.menu > a:nth-of-type(5) {
+  color: #ef394e;
+}
+div.grid-a > div.rest > div.menu > p {
+  float: left;
+  font-size: 12px;
+  font-family: yekan;
+  color: #767790;
+}
+div.grid-a > div.rest > div.grid-in {
+  width: 100%;
+  height: 2500px;
+  background-color: rgb(224, 224, 230);
+  margin-top: -4px;
+}
+div.grid-a .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.grid-a .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% / 5) - 1px) !important;
+  flex-flow: column wrap;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.grid-a div.swiper-slide > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+}
+div.grid-a div.swiper-slide > a > img:nth-of-type(1) {
+  width: 116px;
+  height: 42px;
+  margin: 0;
+  object-fit: contain;
+}
+div.grid-a div.swiper-slide > a > img:nth-of-type(2) {
+  margin: 0 auto;
+  width: 240px;
+  height: 240px;
+}
+div.grid-a div.swiper-slide > a > p {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 8px 0 10px 0;
+  text-align: right;
+  color: black;
+}
+div.grid-a div.swiper-slide > a > div.left {
+  float: left;
+}
+div.grid-a div.swiper-slide > a > div.left > p {
+  width: fit-content;
+  height: fit-content;
+  float: right;
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 16px;
+  color: #3f4064;
+}
+div.grid-a div.swiper-slide > a > div.left > img {
+  float: left;
+  width: 16px;
+  padding-top: 12px;
+}
+div.grid-a div.swiper-slide > a > div.right {
+  float: right;
+  width: 35px;
+  background-color: #ef394e;
+  border-radius: 23px;
+  margin-top: 10px;
+}
+div.grid-a div.swiper-slide > a > div.right > span {
+  font-size: 12px;
+  color: white;
+  padding: 4px;
+}
+div.grid-a div.swiper-slide > a > div.bottom {
+  display: inline-block;
+  width: 100%;
+  margin-top: 8px;
+  padding-left: 22px;
+}
+div.grid-a div.swiper-slide > a > div.bottom > span {
+  text-decoration: line-through;
+  color: #b6adad;
+  font-size: 12px;
+  float: left;
+}
+div.grid-a div.swiper-slide > a > div.timer {
+  text-align: left;
+  margin-top: 16px;
+}
+div.grid-a div.swiper-slide > a > div.timer > p {
+  font-size: 12px;
+  color: #ef394e;
+}
+div.grid-a div.swiper-slide > a:hover {
+  box-shadow: 0px 0px 15px rgb(98, 98, 98);
+  z-index: 2;
+}
+/* grid end */

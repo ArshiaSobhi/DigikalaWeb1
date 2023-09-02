@@ -1,0 +1,57 @@
+/* category start */
+div.category {
+  width: 78%;
+  height: fit-content;
+  padding: 16px 16px 40px 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+div.category > h3 {
+  font-size: 21px;
+  font-family: yekan;
+  font-weight: normal;
+  margin-bottom: 36px;
+  margin-top: 8px;
+  color: rgb(8, 10, 56);
+}
+div.category > div {
+  width: 100%;
+  height: 134px;
+  margin-bottom: 16px;
+}
+div.category > div > div {
+  width: calc(100% / 7);
+  height: 134px;
+  float: right;
+}
+div.category > div:nth-of-type(2) {
+  width: calc(100% - 100% / 7);
+  margin: 0 auto;
+}
+div.category > div:nth-of-type(2) > div {
+  width: calc(100% / 6);
+}
+div.category > div > div > a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+div.category > div > div > a > img {
+  width: 100px;
+}
+div.category > div:nth-of-type(2) > div:nth-of-type(6) > a > img {
+  margin-top: 18px;
+}
+div.category > div:nth-of-type(2) > div:nth-of-type(6) > a > p {
+  margin-top: 23.34px;
+}
+div.category > div > div > a > p {
+  width: fit-content;
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin: 8px auto 0 auto;
+}
+/* category end */

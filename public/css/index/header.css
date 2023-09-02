@@ -1,0 +1,158 @@
+/* whole header start */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+div.head {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 1px rgb(211, 212, 214);
+  background-color: white;
+}
+/* whole header end */
+
+/* header image start */
+div.head > div.head-1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: -4px;
+}
+div.head > div.head-1 > a {
+  width: 100%;
+  height: auto;
+}
+div.head > div.head-1 > a > img {
+  width: 100%;
+}
+/* header image end */
+
+/* rest of the header start */
+div.head > div.head-2 {
+  width: 100%;
+  height: 68px;
+  padding: 12px 16px;
+}
+/* rest of the header end */
+
+/* logo start */
+div.head > div.head-2 > div.logo {
+  width: 8%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -4px;
+}
+div.head > div.head-2 > div.logo > a > img {
+  position: relative;
+  top: calc(50% - 30px / 2);
+}
+/* logo end */
+
+/* search box strat */
+div.head > div.head-2 > div.search {
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  margin-left: -4px;
+  vertical-align: top;
+}
+div.head > div.head-2 > div.search > div {
+  width: 46%;
+  height: 100%;
+  background-color: rgb(241, 242, 244);
+  border-radius: 8px;
+  padding: 0 16px;
+}
+div.head > div.head-2 > div.search > div > i {
+  float: right;
+  font-size: 18px;
+  color: rgb(158, 159, 177);
+  line-height: 44px;
+}
+div.head > div.head-2 > div.search > div > form {
+  width: 90%;
+  height: 26px;
+  padding: 0 16px;
+  float: right;
+  position: relative;
+  top: calc(50% - 26px / 2);
+}
+div.head > div.head-2 > div.search > div > form > input[type="search"] {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: unset;
+  color: rgb(118, 119, 144);
+  font-size: 12px;
+  font-family: yekan;
+}
+input[type="search"]:focus {
+  outline: unset;
+}
+/* clears the &times from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+/* search box end */
+
+/* loggin button start */
+div.head > div.head-2 > div.login {
+  width: 8.7%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -4px;
+}
+div.head > div.head-2 > div.login > button {
+  width: 134px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-top: 2px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(224, 224, 230);
+  border-radius: 8px;
+  cursor: pointer;
+}
+div.head > div.head-2 > div.login > button > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+div.head > div.head-2 > div.login > button > a > i {
+  font-size: 18px;
+  color: rgb(8, 10, 56);
+  transform: rotate(180deg);
+  float: right;
+  line-height: 22px;
+}
+div.head > div.head-2 > div.login > button > a > p {
+  float: left;
+  font-size: 12px;
+  color: rgb(8, 10, 56);
+  font-family: yekan;
+  line-height: 22px;
+}
+/* login button end */
+
+/* shopping cart start */
+div.head > div.head-2 > div.shop {
+  width: 3.3%;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  top: calc(50% - 25px / 2);
+  border-right: 1px solid rgb(224, 224, 230);
+  text-align: center;
+}
+div.head > div.head-2 > div.shop > a > i {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(8, 10, 56);
+  line-height: 25px;
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+/* shopping cart end */

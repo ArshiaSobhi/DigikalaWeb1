@@ -1,0 +1,61 @@
+/* digiclub start */
+div.digiclub {
+  width: 78%;
+  height: 88px;
+  padding: 12px;
+  border-radius: 16px;
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+div.digiclub > a {
+  width: fit-content;
+  height: fit-content;
+  float: right;
+}
+div.digiclub > a > img {
+  float: right;
+  width: 119px;
+  margin: 15.775px 0;
+  margin-right: 24px;
+}
+div.digiclub > div {
+  width: 274px;
+  height: 100%;
+  float: left;
+  margin-right: 4px;
+  padding: 2px;
+  background-color: white;
+}
+div.digiclub > div:nth-of-type(1) {
+  border-radius: 8px 0 0 8px;
+}
+div.digiclub > div:nth-of-type(3) {
+  border-radius: 0 8px 8px 0;
+}
+div.digiclub > div > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+div.digiclub > div > a > img:nth-of-type(1) {
+  float: left;
+  width: 168px;
+  height: 60px;
+  object-fit: cover;
+}
+div.digiclub > div > a > img:nth-of-type(2) {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 20px 0;
+  margin-left: 8px;
+}
+div.digiclub > div > a > p {
+  float: left;
+  font-size: 12px;
+  font-family: yekan;
+  line-height: 60px;
+  color: rgb(8, 10, 56);
+}
+/* digiclub end */

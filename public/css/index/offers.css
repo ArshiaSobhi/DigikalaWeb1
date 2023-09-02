@@ -1,0 +1,147 @@
+/* offers start */
+div.offers {
+  width: 78%;
+  height: 430px;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid rgb(239, 236, 236);
+  margin-top: 24px;
+}
+div.offers > div {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+div.offers > div > div {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+}
+div.offers > div > div > p {
+  font-size: 21px;
+  font-family: yekan;
+  color: rgb(8, 10, 56);
+  display: inline-block;
+}
+div.offers > div > div > img {
+  float: right;
+  padding-top: 2.75px;
+  padding-left: 4px;
+}
+div.offers > div > a {
+  position: absolute;
+  left: 20px;
+  width: fit-content;
+  height: fit-content;
+  text-decoration: none;
+}
+div.offers > div > a > p {
+  width: fit-content;
+  height: fit-content;
+  float: left;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(25, 191, 211);
+  padding-top: 4.75px;
+}
+div.offers > div.offers-slider {
+  width: 100%;
+  height: calc(430px - 69.5px);
+  padding: 0 0 20px 0;
+}
+div.offers > div.offers-slider .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.offers > div.offers-slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc(100% / 3) !important;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySwiper-5 [class^="swiper-button-"]::after {
+  content: "" !important;
+}
+div.offers div.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 0.5px solid #525252;
+}
+div.offers div.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 0.5px solid #2b2b2b;
+}
+div.offers div.swiper-button-next > i {
+  color: #2b2b2b;
+  font-weight: bold;
+  font-size: 14px;
+}
+div.offers div.swiper-button-prev > i {
+  color: #2b2b2b;
+  font-weight: bold;
+  font-size: 14px;
+  transform: rotate(180deg);
+}
+div.offers > div.offers-slider div.swiper-slide > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+div.offers > div.offers-slider div.swiper-slide > a > img {
+  width: 86px;
+  height: 86px;
+  float: right;
+  position: relative;
+  top: calc(50% - 86px / 2);
+  padding-right: 10px;
+}
+div.offers > div.offers-slider div.swiper-slide > a > p:nth-of-type(1) {
+  font-family: yekan;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(25, 191, 211);
+  float: right;
+  line-height: 106.83px;
+  margin-right: 14px;
+}
+div.offers > div.offers-slider div.swiper-slide > a > p:nth-of-type(2) {
+  font-family: yekan;
+  font-size: 12px;
+  float: left;
+  color: rgb(38, 38, 38);
+  width: 180px;
+  text-align: right;
+  line-height: 24px;
+  position: relative;
+  top: calc(50% - 48px / 2);
+  border-bottom: 1px solid rgb(239, 236, 236);
+  padding-bottom: 32px;
+}
+.adjustment {
+  position: relative;
+  top: calc(50% - 24px / 2) !important;
+  padding-bottom: 44px !important;
+}
+.border-edit {
+  border-bottom: unset !important;
+}
+/* offers end */
